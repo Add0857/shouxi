@@ -1,0 +1,47 @@
+h2 { margin-top: 0; }
+.switchWrap .col3 {
+	width: 50%;
+}
+
+.formGroup {
+	margin-bottom: 4em;
+}
+
+#switchWrap .mui-textfield {
+	padding-top: 0;
+}
+.mui-select>select[name="sFrom"],
+.mui-select>select[name="sTo"],
+.mui-textfield input[type=text][name="amount"], 
+.mui-textfield input[type=text][name="amount"]:focus {
+	height: auto !important;
+	color: #2196F3;
+	font-weight: bold;
+	vertical-align: top;
+}
+.mui-select,
+.mui-select > select {
+	width: 10em;
+}
+
+.inline {
+	display: inline-block;
+}
+.middle {
+	vertical-align: middle;
+}
+.small {
+	padding: 1em 0;
+	font-size: .8125em;
+}
+input[name="amount"] {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #2196F3;
+}
+
+.walletBalance {
+	color: red;
+}
+
+input[name="amount"][readonly] { cursor: text; }

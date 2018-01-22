@@ -1,0 +1,487 @@
+﻿[data-bg="slot"] ,[data-bg="casino"] ,[data-bg="lottery"] {
+    background-size:cover;
+    background-position:center;
+} 
+.pageTitle {
+    width:312px;
+    height:100px;
+    margin:0 auto 50px auto;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+/*casino*/
+.gameCardsRight ul {
+    width:100%;
+    padding:0;
+    margin:0;
+    height:45px;
+    box-sizing:border-box;
+}
+.gameCardsRight_body {
+    padding:15px;
+    height:auto;
+    user-select:none;
+    height:calc(100% - 45px);
+}
+.gameCardsRight_body .buttom {
+    position:absolute;
+    left:0;
+    width:100%;
+}
+.allbet .gameCardsRight_body .buttom {
+}
+.gg .gameCardsRight_body .buttom {
+}
+.gameCardsRight_body .showPoints {
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    margin-bottom:15px;
+    display:none;
+}
+.gameCardsRight_body .points {
+    color:#fff799;
+    margin:0 5px;
+}
+.operatBtnShow-js {
+    display:none;
+}
+.gameCardsRight_body .operatBtn {
+    font-size:16px;
+    background-color:transparent;
+    border:1px solid #fff;
+    color:#fff;
+    width:calc(50% - 8px);
+    opacity:.85;
+}
+.gameCardsRight_body .operatBtn:hover {
+    opacity:1;
+}
+.gameCardsRight_body .fa {
+    cursor:pointer;
+    margin-left:5px;
+}
+.gameCardsRight_top ul li {
+    font-size:18px;
+    float:left;
+    text-align:center;
+    color:#fff;
+    padding:10px 0;
+    height:45px;
+    box-sizing:border-box;
+    cursor:pointer;
+    user-select:none;
+    transition: color linear 0.2s;
+    -moz-transition: color linear 0.2s;
+    -webkit-transition: color linear 0.2s;
+    -o-transition: color linear 0.2s;
+}
+.gameCardsRight_top ul.tab-1 li {
+    width:100%;
+}
+.gameCardsRight_top ul.tab-2 li {
+    width:50%;
+}
+.gameCardsRight_top ul.tab-3 li {
+    width:33%;
+}
+.gameCardsRight_top ul li:hover {
+    color:#fffbc9;
+}
+.gameCardsRight_top ul li.active {
+    border-bottom:2px solid #fff;
+}
+.gameCardsRight {
+    position:absolute;
+    right:0;
+    top:0;
+    width:30%;
+    height:100%;
+}
+.tabContent {
+    position:relative;
+    display:none;
+    height:100%;
+}
+.tabContent.active {
+    display:block;
+}
+.gameCards_bg .qrcodeArea {
+    width:100%;
+    text-align:center;
+}
+.gameCards_bg .qrcodeArea img {
+    width:150px;
+    height:150px;
+}
+.gameCards_bg .qrcodeArea .allbetApp,
+.gameCards_bg .qrcodeArea .ultxApp {
+    margin-top:10px;
+}
+.gameCards_bg .qrcodeArea span {
+    color:#fff;
+}
+.gameCards_bg .qrcodeArea .heightLight {
+    color:#fff799;
+}
+.tabContent .qrcode {
+    margin-top:15px;
+}
+.tabContent .qrcode div {
+    width:80%;
+    color:#fff;
+    text-align:left;
+    margin:0 auto;
+}
+.tabContent .qrcode img {
+    display:block;
+    margin:0 auto;
+}
+.gameCards .playNowBtn ,.gameCards .playTestBtn, .gameCards .playh5Btn {
+    margin:0;
+    height:45px;
+    font-size:18px;
+    line-height:45px;
+    width:100%;
+}
+.gameCards .playTestBtn {
+    margin-bottom:10px;
+}
+.panel.casinoGame ,.panel.slotGame {
+    background:transparent;
+    box-shadow:none;
+    padding:0 !important;
+}
+.gameCards {
+    width:100%;
+}
+.gameCards_bg {
+    width:100%;
+    height:350px;
+    margin-bottom:100px;
+    box-shadow:0 2px 4px #d6d0e0;
+    position:relative;
+}
+.gameCards_bg .girl ,.gameCards_bg .logo {
+    position:absolute;
+}
+.gameCardsFooter {
+    background:#fff;
+    height:80px;
+    padding:20px;
+    bottom:0;
+    position:absolute;
+    font-size:30px;
+    width:100%;
+    color:#333;
+}
+.gameCardsFooter .gameLogo {
+    position:absolute;
+    right:10px;
+    top:0;
+}
+.gameCards_pic {
+    position:absolute;
+    width:100%;
+    height:200px;
+    background:transparent;
+    overflow:hidden;
+}
+/*取得遊戲app帳號密碼太久時的loading*/
+#casino_game_wrap .loadWrap.isLoading .loadingBtn {
+    background: #666;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#casino_game_wrap .loadWrap .loadingStateWrap {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    background-image: url(../images/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 52px;
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#casino_game_wrap .loadWrap.isLoading .loadingStateWrap {
+    display: block;
+}
+
+#slot_game_wrap .loadWrap.isLoading .loadingBtn {
+    background: #666;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#slot_game_wrap .loadWrap .loadingStateWrap {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    background-image: url(../images/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 52px;
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#slot_game_wrap .loadWrap.isLoading .loadingStateWrap {
+    display: block;
+}
+/*取得遊戲app帳號密碼太久時的loading*/
+
+/*Bingo Run 彩票館*/
+.gamePanel {
+    user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+}
+.gamePanel.bingoRun {
+    position:relative;
+    margin-bottom:55px;
+    display:block;
+}
+.gamePanel.howLottery ,
+.gamePanel.vrLottery,
+.gamePanel.onegood {
+    width:calc(50% - 7px);
+    display:inline-block;
+    float:left;
+    text-align:center;
+}
+.gamePanel.howLottery {
+    margin-right:10px;
+}
+.gamePanel.bingoRun .gamePanelBg {
+    width:100%;
+    height:360px;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    background:url(../images/bingorun_bg.jpg) no-repeat;
+}
+.gamePanel.howLottery .gamePanelBg {
+    width:100%;
+    height:260px;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    background:url(../images/howlottery_bg.jpg) no-repeat;
+     background-size:cover;
+}
+.gamePanel.vrLottery .gamePanelBg {
+    width:100%;
+    height:260px;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    background:url(../images/vrLottery_bg.jpg) no-repeat;
+    background-size:cover;
+}
+.gamePanel.onegood .gamePanelBg {
+    width:100%;
+    height:260px;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    background:url(../images/howlottery_bg.jpg) no-repeat;
+     background-size:cover;
+}
+.gamePanel.onegood .gamePanelBg {
+    width:100%;
+    height:260px;
+    border-radius:4px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.34);
+    background:url(../images/vrLottery_bg.jpg) no-repeat;
+    background-size:cover;
+}
+.gamePanel.howLottery .title ,
+.gamePanel.vrLottery .title,
+.gamePanel.onegood .title {
+    color:#fff;
+    font-size:34px;
+    font-size:34px;
+    font-weight:700;
+    display:block;
+}
+.gamePanel.howLottery p ,
+.gamePanel.vrLottery p,
+.gamePanel.onegood p {
+    font-size:20px;
+    margin-bottom:20px;
+    color:#eee;
+    text-align:center;
+}
+.gamePanel.bingoRun .btnWrap {
+    width:415px;
+    display:block;
+    margin:0 auto;
+    padding-top:150px;
+}
+.gamePanel.howLottery .playNowBtn .arrowIcon ,
+.gamePanel.vrLottery .playNowBtn .arrowIcon,
+.gamePanel.onegood .playNowBtn .arrowIcon {
+    right:27px;
+    position:absolute;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    top:10px;
+}
+.gamePanel.howLottery .playNowBtn:hover .arrowIcon {
+    right:20px;
+}
+.gamePanel.howLottery .playNowBtn .text ,
+.gamePanel.vrLottery .playNowBtn .text,
+.gamePanel.onegood .playNowBtn .text {
+    left:40px;
+    position:absolute;
+}
+.gamePanel.howLottery .btnWrap .playNowBtn ,
+.gamePanel.vrLottery .btnWrap .playNowBtn,
+.gamePanel.onegood .btnWrap .playNowBtn {
+    width:200px;
+    display:inline-block;
+    text-align:center;
+    padding:5px 20px;
+    cursor:pointer;
+    font-size:30px;
+    background-color:transparent;
+    color:#fff;
+    text-decoration:none;
+    position:relative;
+}
+.gamePanel.bingoRun .btnWrap .playNowBtn ,.gamePanel.bingoRun .btnWrap .playTestBtn {
+    width:200px;
+    height:55px;
+    margin-top:10px;
+    font-size:26px;
+    line-height:55px;
+    font-weight:bold;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+
+    -webkit-box-shadow: -7px 7px 0px 0px rgba(16,9,100,1);
+    -moz-box-shadow: -7px 7px 0px 0px rgba(16,9,100,1);
+    box-shadow: -7px 7px 0px 0px rgba(16,9,100,1);
+}
+.gamePanel.bingoRun .btnWrap .playNowBtn ,.gamePanel.bingoRun .btnWrap .playTestBtn ,.gamePanel.bingoRun .btnWrap .playNowBtn:hover ,.gamePanel.bingoRun .btnWrap .playTestBtn:hover {
+    text-decoration:none;
+}
+.gamePanel.bingoRun .btnWrap .playNowBtn {
+    color:#fff;
+    border-color:transparent;
+    border-width:2px;
+    border-style:solid;
+    background: #bd4cff;
+    background: -moz-linear-gradient(left, #bd4cff 0%, #a700ff 100%);
+    background: -webkit-linear-gradient(left, #bd4cff 0%,#a700ff 100%);
+    background: linear-gradient(to right, #bd4cff 0%,#a700ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd4cff', endColorstr='#a700ff',GradientType=1 );
+}
+.gamePanel.bingoRun .btnWrap .playNowBtn .fa {
+    color:#C054FF;
+}
+.gamePanel.bingoRun .btnWrap .playNowBtn:hover {
+}
+.gamePanel.bingoRun .btnWrap .playTestBtn {
+    border:2px solid #bd4cff;
+    margin-right:10px;
+    color:#d6a4ff;
+    background:#261e8c;
+}
+.gamePanel.bingoRun .flyers01 ,.gamePanel.bingoRun .flyers02 {
+    position:absolute;
+    width:136px;
+    height:134px;
+}
+.gamePanel.bingoRun .flyers01 {
+    left:90px;
+    bottom:-41px;
+    background:url(../images/flyers01.png);
+}
+.gamePanel.bingoRun .flyers02 {
+    right:120px;
+    bottom:-60px;
+    background:url(../images/flyers02.png);
+}
+.valignWrapper > .valignWrap {
+    width:100%;
+}
+.stripes {
+    display:none;
+    position: absolute;
+    left: -46px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+  background: -webkit-repeating-linear-gradient(
+    145deg,
+    #AE19FF 1px,
+    #a700ff 2px,
+    #a700ff 11px,
+    #AE19FF 12px,
+    #AE19FF 20px
+  );
+  background: repeating-linear-gradient(
+    -55deg,
+    #AE19FF 1px,
+    #a700ff 2px,
+    #a700ff 11px,
+    #AE19FF 12px,
+    #AE19FF 20px
+	);
+    -webkit-animation-name: stripesMove;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+    animation-name: stripesMove;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	-webkit-animation-duration: .8s;
+	animation-duration: .8s;
+}
+.gamePanel.bingoRun .playNowBtn:hover .stripes {
+    display: block !important;
+}
+@-webkit-keyframes stripesMove {
+	from {
+		-webkit-transform: translateX(0);
+	}
+	to { 
+		-webkit-transform: translateX(46px);
+	}
+}
+
+@keyframes stripesMove {
+	from {
+		transform: translateX(0);
+	}
+	to { 
+		transform: translateX(46px);
+	}
+}
+/*Bingo Run 彩票館*/
