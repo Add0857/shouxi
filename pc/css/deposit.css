@@ -1,0 +1,39 @@
+ h2 { margin-top: 0; }
+.depositWrap .col3 { width: 50%; }
+.mui-select__menu .mui--is-selected, 
+.mui-select>select[name="walletTypes"],
+.mui-textfield input[type=text][name="amount"],
+input[type=radio]:checked + label {
+	color: #2196F3;
+	font-weight: bold;
+	vertical-align: top;
+}
+.inline {
+	display: inline-block;
+}
+.formGroup {
+	margin-bottom: 3em;
+}
+#depositWrap .mui-textfield { padding-top: 0; }
+.small { padding: 1em 0; font-size: .8125em; }
+/*
+* reset.css 有取消內建style,所以重新在添加上去
+*/
+.depositExplain ul{
+	list-style:initial;
+	margin-left:20px;
+}
+.depositExplain ol {
+	list-style:decimal;
+	margin-left:20px;
+}
+.formPagePc .title  { padding-left: 0; }
+input[name="amount"], input[name="amount"]:focus  { height: auto !important; font-size: 1.5em; font-weight: bold; color: #2196F3; }
+.input {
+	vertical-align: top;
+}
+/*----*/
+.search-list-box2 li { width: 50% !important; }
+.depositDetail th { font-weight: normal !important; }
+.depositDetail .highlight { color: #2196F3; font-weight: bold; }
+input[name="amount"][readonly] { cursor: text; }

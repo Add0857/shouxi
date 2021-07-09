@@ -1,0 +1,91 @@
+﻿[data-bg="slot"] {
+    background-image:url("../images/slot_bg.jpg") !important;
+}
+.uc8 .gameCardsRight  {
+    background:url(../images/right_bg_purple.png);
+}
+.gg .gameCardsRight {
+    background:url(../images/right_bg_blue.png);
+}
+.qt .gameCardsRight {
+    background:url(../images/right_bg_orange.png);
+}
+.uc8 .playNowBtn ,.allbet .playNowBtn {
+    color:#920783;
+    background:#fff;
+}
+.uc8 .playNowBtn:hover ,.allbet .playNowBtn:hover {
+    color:#fff;
+    background:#e6024f;
+}
+.uc8 .playTestBtn {
+    color:#fff;
+    background:#ad47a2;
+}
+.uc8 .playTestBtn:hover {
+    background:#c960be;
+}
+.qt .playNowBtn {
+    color:#be6b00;
+    background:#fff;
+}
+.qt .playNowBtn:hover {
+    color:#fff;
+    background:#ffc000;
+}
+.qt .playTestBtn {
+    color:#fff;
+    background:#de9940;
+}
+.qt .playTestBtn:hover {
+    color:#fff;
+    background:#f4b665;
+}
+.gg .playNowBtn {
+    color:#1E88E5;
+    background:#fff;
+}
+.gg .playNowBtn:hover {
+    color:#fff;
+    background:#4cdfff;
+}
+/**/
+.gameCards.gg {
+    margin:0 0 70px 0; 
+}
+.gameCards.qt {
+    margin:100px 0 0 0; 
+}
+.gg .gameCards_bg .girl {
+    bottom:0;
+    left:80px
+}
+.gg .gameCards_bg .logo {
+    top:15px;
+    left:15px;
+}
+.uc8 .gameCards_bg .girl {
+    bottom:0;
+    left:100px;
+}
+.uc8 .gameCards_bg .logo {
+    top:15px;
+    left:15px;
+}
+.qt .gameCards_bg .girl {
+    bottom:0;
+    left:270px;
+}
+.qt .gameCards_bg .logo {
+    top:15px;
+    left:15px;
+}
+.gameCards.gg .gameCards_bg {
+    background:url(../images/gg_bg.jpg);
+}
+.gameCards.uc8 .gameCards_bg ,.gameCards.sa .gameCards_bg {
+    background:url(../images/uc8_bg.jpg);
+}
+.gameCards.qt .gameCards_bg {
+    background:url(../images/qt_bg.jpg);
+}
